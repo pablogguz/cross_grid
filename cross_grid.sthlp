@@ -67,11 +67,8 @@ values in the i-th variable.
 {marker author}{...}
 {title:Author}
 
-{pstd}    
-Pablo Garcia-Guzman
-EBRD
-Email: garciagp@ebrd.com
-{p_end}
+{pstd}Pablo Garcia-Guzman{p_end}
+{pstd}EBRD{p_end}
+{pstd}Email: garciagp@ebrd.com{p_end}
 
-{marker also_see}{...}
-{title:Also see}
+
