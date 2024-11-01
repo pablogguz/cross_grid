@@ -1,0 +1,8 @@
+v 0.1.0
+d 'CROSS_GRID': Create a data frame from all combinations of the supplied variables
+d 
+d Distribution-Date:   20241101
+d License: MIT
+d 
+F cross_grid.ado
+F cross_grid.sthlp
