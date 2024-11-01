@@ -12,7 +12,7 @@ A Stata command that generates all possible combinations from a set of variables
 ## Installation
 
 ```
-net install expand_grid, from(https://raw.githubusercontent.com/pablogguz/expand_grid/master/) replace
+net install expand_grid, from(https://raw.githubusercontent.com/pablogguz/cross_grid/master/) replace
 ```
 
 ## Requirements
