@@ -40,15 +40,10 @@ names must match the number of variables in varlist. If not specified, the new v
 {phang2}{cmd:. sysuse auto}{p_end}
 
 {pstd}Create all combinations of price and mpg{p_end}
-{phang2}{cmd:. levelsof price, local(prices)}{p_end}
-{phang2}{cmd:. levelsof mpg, local(mpgs)}{p_end}
 {phang2}{cmd:. cross_grid price mpg}{p_end}
 
-{pstd}Same as above but with custom variable names{p_end}
-{phang2}{cmd:. cross_grid price mpg, generate(price_grid mpg_grid)}{p_end}
-
 {pstd}Using three variables{p_end}
-{phang2}{cmd:. cross_grid price mpg foreign, generate(price_new mpg_new foreign_new)}{p_end}
+{phang2}{cmd:. cross_grid price mpg foreign}{p_end}
 
 {marker results}{...}
 {title:Stored results}
