@@ -15,17 +15,6 @@ A Stata command that generates all possible combinations from a set of variables
 net install expand_grid, from(https://raw.githubusercontent.com/pablogguz/expand_grid/master/) replace
 ```
 
-## Usage
-
-```stata
-cross_grid varlist
-```
-
-## Features
-
-- Creates all possible combinations of input variables
-- Works with both string and numeric variables
-
 ## Requirements
 
 - Stata 14.0 or higher
