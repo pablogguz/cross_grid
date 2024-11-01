@@ -12,6 +12,10 @@
     cross_grid color size
     list */
 
+* Help example
+    sysuse auto, clear
+    cross_grid price mpg foreign
+
 * Example 2: 
     clear
     set seed 123

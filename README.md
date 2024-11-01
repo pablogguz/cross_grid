@@ -1,5 +1,5 @@
 
-# cross_grid
+# cross_grid <img src="icon/hex_cross_grid.png" align="right" width="150"/>
 
 A Stata command that generates all possible combinations from a set of variables, similar to R's [`expand.grid()`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/expand.grid). The resulting dataset will have N₁ × N₂ × ... × Nₖ observations, where Nᵢ is the number of unique values in the i-th variable.
 
